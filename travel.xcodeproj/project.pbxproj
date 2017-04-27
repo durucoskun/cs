@@ -7,15 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F0627CA1EB16773005B2DB7 /* Destination.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0627C91EB16773005B2DB7 /* Destination.swift */; };
+		3F0627CC1EB16852005B2DB7 /* Flight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0627CB1EB16852005B2DB7 /* Flight.swift */; };
+		3FFC03671EACF1FF0044AB9C /* Place.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFC03651EACF1FF0044AB9C /* Place.swift */; };
+		3FFC03681EACF1FF0044AB9C /* Quote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFC03661EACF1FF0044AB9C /* Quote.swift */; };
+		3FFC036A1EACF20A0044AB9C /* Carrier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFC03691EACF20A0044AB9C /* Carrier.swift */; };
+		3FFC036C1EACF2130044AB9C /* Currency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFC036B1EACF2130044AB9C /* Currency.swift */; };
+		3FFC036E1EACF46B0044AB9C /* OutboundLeg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFC036D1EACF46B0044AB9C /* OutboundLeg.swift */; };
+		3FFC03701EACF47B0044AB9C /* InboundLeg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFC036F1EACF47B0044AB9C /* InboundLeg.swift */; };
+		3FFC03721EAD15E30044AB9C /* CityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFC03711EAD15E30044AB9C /* CityViewController.swift */; };
 		86769EF21E9F95530083EB76 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86769EF11E9F95530083EB76 /* AppDelegate.swift */; };
 		86769EF41E9F95530083EB76 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86769EF31E9F95530083EB76 /* ViewController.swift */; };
 		86769EF71E9F95530083EB76 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86769EF51E9F95530083EB76 /* Main.storyboard */; };
 		86769EFA1E9F95530083EB76 /* travel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 86769EF81E9F95530083EB76 /* travel.xcdatamodeld */; };
 		86769EFC1E9F95530083EB76 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86769EFB1E9F95530083EB76 /* Assets.xcassets */; };
 		86769EFF1E9F95530083EB76 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86769EFD1E9F95530083EB76 /* LaunchScreen.storyboard */; };
+		86769F071E9F9B0D0083EB76 /* HomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86769F061E9F9B0D0083EB76 /* HomePageViewController.swift */; };
+		86769F091E9FABFA0083EB76 /* CityTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86769F081E9FABFA0083EB76 /* CityTableViewCell.swift */; };
+		86769F0D1E9FB1400083EB76 /* CityDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86769F0C1E9FB1400083EB76 /* CityDataSource.swift */; };
+		9217B08B1EAFD8ED0081137E /* CityDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9217B08A1EAFD8ED0081137E /* CityDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3F0627C91EB16773005B2DB7 /* Destination.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Destination.swift; sourceTree = "<group>"; };
+		3F0627CB1EB16852005B2DB7 /* Flight.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Flight.swift; sourceTree = "<group>"; };
+		3FFC03651EACF1FF0044AB9C /* Place.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Place.swift; sourceTree = "<group>"; };
+		3FFC03661EACF1FF0044AB9C /* Quote.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Quote.swift; sourceTree = "<group>"; };
+		3FFC03691EACF20A0044AB9C /* Carrier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Carrier.swift; sourceTree = "<group>"; };
+		3FFC036B1EACF2130044AB9C /* Currency.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Currency.swift; sourceTree = "<group>"; };
+		3FFC036D1EACF46B0044AB9C /* OutboundLeg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OutboundLeg.swift; sourceTree = "<group>"; };
+		3FFC036F1EACF47B0044AB9C /* InboundLeg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InboundLeg.swift; sourceTree = "<group>"; };
+		3FFC03711EAD15E30044AB9C /* CityViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CityViewController.swift; sourceTree = "<group>"; };
 		86769EEE1E9F95530083EB76 /* travel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = travel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		86769EF11E9F95530083EB76 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		86769EF31E9F95530083EB76 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +46,10 @@
 		86769EFB1E9F95530083EB76 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		86769EFE1E9F95530083EB76 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		86769F001E9F95530083EB76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		86769F061E9F9B0D0083EB76 /* HomePageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomePageViewController.swift; sourceTree = "<group>"; };
+		86769F081E9FABFA0083EB76 /* CityTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CityTableViewCell.swift; sourceTree = "<group>"; };
+		86769F0C1E9FB1400083EB76 /* CityDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CityDataSource.swift; sourceTree = "<group>"; };
+		9217B08A1EAFD8ED0081137E /* CityDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CityDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +66,10 @@
 		86769EE51E9F95520083EB76 = {
 			isa = PBXGroup;
 			children = (
+				3FFC036B1EACF2130044AB9C /* Currency.swift */,
+				3FFC03691EACF20A0044AB9C /* Carrier.swift */,
+				3FFC03651EACF1FF0044AB9C /* Place.swift */,
+				3FFC03661EACF1FF0044AB9C /* Quote.swift */,
 				86769EF01E9F95530083EB76 /* travel */,
 				86769EEF1E9F95530083EB76 /* Products */,
 			);
@@ -59,10 +89,19 @@
 				86769EF11E9F95530083EB76 /* AppDelegate.swift */,
 				86769EF31E9F95530083EB76 /* ViewController.swift */,
 				86769EF51E9F95530083EB76 /* Main.storyboard */,
+				3FFC03711EAD15E30044AB9C /* CityViewController.swift */,
+				3F0627C91EB16773005B2DB7 /* Destination.swift */,
+				9217B08A1EAFD8ED0081137E /* CityDetailViewController.swift */,
+				86769F061E9F9B0D0083EB76 /* HomePageViewController.swift */,
 				86769EFB1E9F95530083EB76 /* Assets.xcassets */,
 				86769EFD1E9F95530083EB76 /* LaunchScreen.storyboard */,
 				86769F001E9F95530083EB76 /* Info.plist */,
 				86769EF81E9F95530083EB76 /* travel.xcdatamodeld */,
+				86769F081E9FABFA0083EB76 /* CityTableViewCell.swift */,
+				86769F0C1E9FB1400083EB76 /* CityDataSource.swift */,
+				3F0627CB1EB16852005B2DB7 /* Flight.swift */,
+				3FFC036D1EACF46B0044AB9C /* OutboundLeg.swift */,
+				3FFC036F1EACF47B0044AB9C /* InboundLeg.swift */,
 			);
 			path = travel;
 			sourceTree = "<group>";
@@ -99,6 +138,7 @@
 				TargetAttributes = {
 					86769EED1E9F95530083EB76 = {
 						CreatedOnToolsVersion = 8.3.1;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -139,9 +179,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				86769F071E9F9B0D0083EB76 /* HomePageViewController.swift in Sources */,
 				86769EF41E9F95530083EB76 /* ViewController.swift in Sources */,
+				3F0627CA1EB16773005B2DB7 /* Destination.swift in Sources */,
+				3FFC036A1EACF20A0044AB9C /* Carrier.swift in Sources */,
+				9217B08B1EAFD8ED0081137E /* CityDetailViewController.swift in Sources */,
+				3F0627CC1EB16852005B2DB7 /* Flight.swift in Sources */,
+				3FFC03671EACF1FF0044AB9C /* Place.swift in Sources */,
+				3FFC03681EACF1FF0044AB9C /* Quote.swift in Sources */,
+				3FFC036C1EACF2130044AB9C /* Currency.swift in Sources */,
+				86769F091E9FABFA0083EB76 /* CityTableViewCell.swift in Sources */,
+				3FFC03701EACF47B0044AB9C /* InboundLeg.swift in Sources */,
+				3FFC036E1EACF46B0044AB9C /* OutboundLeg.swift in Sources */,
 				86769EFA1E9F95530083EB76 /* travel.xcdatamodeld in Sources */,
+				86769F0D1E9FB1400083EB76 /* CityDataSource.swift in Sources */,
 				86769EF21E9F95530083EB76 /* AppDelegate.swift in Sources */,
+				3FFC03721EAD15E30044AB9C /* CityViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,10 +317,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = travel/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.aygen.travel;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -276,7 +332,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = travel/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.aygen.travel;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -303,6 +361,7 @@
 				86769F051E9F95530083EB76 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
